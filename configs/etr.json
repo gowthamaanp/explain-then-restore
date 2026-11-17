@@ -1,0 +1,32 @@
+{
+ "checkpoints": {
+  "prior": "checkpoints/prior.pt",
+  "chain_estimator": "checkpoints/chain_estimator.pt",
+  "kernel_vae": "checkpoints/kernel_vae.pt",
+  "signature_head": "checkpoints/signature_head.pt",
+  "critic": "checkpoints/critic.pt",
+  "kernel_bank": "checkpoints/kernel_bank.pt",
+  "refiner": "checkpoints/refiner.pt"
+ },
+ "solver_hp": "configs/solver_hp.json",
+ "max_iter": 40,
+ "amp": true,
+ "refine_d4": true,
+ "estimator": {},
+ "inference": {
+  "tta": false,
+  "trust_power": 0.0,
+  "kerr": 0.0392156862745098,
+  "tau_blur": -1000000000.0,
+  "tau_rain": 0.0,
+  "thresholds": {
+   "blur": 0.0,
+   "resample": -9.242761535644537,
+   "noise": 0.0,
+   "jpeg": -2.9791723251342757,
+   "tone": -0.17462126314639942,
+   "haze": -0.6690104126930217,
+   "layer": -0.8448103189468393
+  }
+ }
+}

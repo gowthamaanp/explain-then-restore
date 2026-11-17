@@ -1,0 +1,48 @@
+{
+ "heavy_sigma": 0.058823529411764705,
+ "heavy": {
+  "blur+n30": {
+   "kappa": 0.5,
+   "lam": 2.0,
+   "sigma_min": 0.00784313725490196,
+   "readout": 0.25,
+   "pre_denoise_rho": 0.2
+  },
+  "x4+n30": {
+   "kappa": 0.75,
+   "lam": 3.5555555555555554,
+   "sigma_min": 0.00784313725490196,
+   "readout": 0.5,
+   "pre_denoise_rho": 0.2
+  },
+  "denoise25": {
+   "direct_scale": 1.0
+  }
+ },
+ "categories": {
+  "lin_low": {
+   "kappa": 1.0,
+   "lam": 1.0,
+   "sigma_min": 0.03137254901960784,
+   "readout": 1.0
+  },
+  "lin_noise": {
+   "kappa": 1.0,
+   "lam": 4.0,
+   "sigma_min": 0.03137254901960784,
+   "readout": 1.0
+  },
+  "jpeg": {
+   "kappa": 1.0,
+   "lam": 8.0,
+   "sigma_min": 0.03137254901960784,
+   "readout": 0.5
+  },
+  "sr": {
+   "kappa": 1.5,
+   "lam": 0.4444444444444444,
+   "sigma_min": 0.03137254901960784,
+   "readout": 0.5
+  }
+ }
+}

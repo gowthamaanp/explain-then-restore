@@ -1,0 +1,5 @@
+# tested with Python 3.8, torch 2.4.1 + CUDA 12.1
+torch>=2.0
+numpy>=1.22
+opencv-python>=4.5
+pyiqa>=0.1.10        # evaluate.py only (the paper's scorer)
